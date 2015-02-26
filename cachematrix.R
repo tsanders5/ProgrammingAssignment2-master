@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
-
+## 
+## 26 Feb, 2015   TSA
+#  Example of using cache
 ## This function creates a special "matrix" object that can cache its inverse
+## The returned value is a LIST.
 
 makeCacheMatrix <- function(x = numeric()) {
    m <- NULL
